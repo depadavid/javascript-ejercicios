@@ -1,6 +1,7 @@
 (() => {
     // Retornar el primer elemento del arreglo recibido por parámetro.
-const devolverPrimerElemento = (array) => {
+
+    const devolverPrimerElemento = (array) => {
     if(array.length === 0) return {"message": "El arreglo no puede estar vacio"}
     if(!Array.isArray(array)) return {"message": "El parámetro debe ser un arreglo"}
     return array[0];
